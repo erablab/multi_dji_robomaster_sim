@@ -66,5 +66,5 @@ while True:
 
     loop_end = time.time()
     print('loop time:', loop_end - loop_start)
-    # if (loop_end - loop_start) < LOOP_TIME:
-    #     time.sleep(LOOP_TIME - (loop_end - loop_start))
+    if (loop_end - loop_start) < LOOP_TIME:
+        time.sleep(LOOP_TIME - (loop_end - loop_start))
